@@ -46,7 +46,7 @@ export const Game = () => {
 
   const won = (winner) => {
     setLock(true);
-    titleRef.current.innerHTML = `Tebrikler: <img src='${
+    titleRef.current.innerHTML = `Tebrikler <img src='${
       winner === "x" ? x_icon : o_icon
     }' alt='winner' /> Qazandiniz`;
   };
