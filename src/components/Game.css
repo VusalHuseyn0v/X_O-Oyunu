@@ -99,7 +99,12 @@ body {
     }
 
     .boxes img {
-        margin: 35px 35px;
+        margin: 30px 30px;
     }
 
+}
+@media screen and (max-width:400px) {
+    .boxes img  {
+        margin: 35px 35px;
+    }
 }
